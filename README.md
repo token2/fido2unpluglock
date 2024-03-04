@@ -24,7 +24,7 @@ Invoke-ps2exe .\t2lock.ps1 .\t2lock.exe
 
 This will give you an executable that you can deploy to your machine and make sure it is run at startup. Quitting the app will be possible only by killing it in the Task Manager.
 
-##TO-DO
+## TO-DO
 
-A feature (or separate 'management' app) that will create a systray icon context menu allowing to see if the t2lock.exe is running and allowing to quit it more conveniently.
-Make sure the exe cannot be launched twice
+- A feature (or separate 'management' app) that will create a systray icon context menu allowing to see if the t2lock.exe is running and allowing to quit it more conveniently.
+- Make sure the exe cannot be launched twice
