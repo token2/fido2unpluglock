@@ -10,3 +10,16 @@ According to our research, such solutions exist, but they are either vendor-lock
 Token2 is a cybersecurity company specialized in the area of multifactor authentication. Founded by a team of researchers and graduates from the University of Geneva with years of experience in the field of strong security and multifactor authentication, Token2 has invented, designed and developed various hardware and software solutions for user-friendly and secure authentication. Token2 is headquartered in Geneva, Switzerland. 
 
 Token2 is a member of FIDO Alliance, and implements the FIDO protocols (UAF, U2F, WebAuthN and CTAP) on its hardware security keys as well as its software solutions.
+
+
+# Compiling and using the PowerShell version
+
+The first option is the simple script (`t2lock.ps1`) created with PowerShell. It is ready to be used as is, however, as the principle of the solution is to constantly monitor the devices that have been unplugged, the best way would be to create an exe file out of it.
+
+This can be done by using the `ps2exe` module. Install the module and simply run:
+
+```powershell
+Invoke-ps2exe .\t2lock.ps1 .\t2lock.exe
+```
+
+This will give you an executable that you can deploy to your machine and make sure it is run at startup.
