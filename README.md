@@ -26,5 +26,6 @@ This will give you an executable that you can deploy to your machine and make su
 
 ## TO-DO
 
-- A feature (or separate 'management' app) that will create a systray icon context menu allowing to see if the t2lock.exe is running and allowing to quit it more conveniently.
+- A feature (or separate 'management' app) that will create a systray icon context menu allowing to see if the t2lock.exe is running and allowing you to quit it more conveniently.
+- An option to give a choice to log off in addition to lock the workstation
 - Make sure the exe cannot be launched twice
